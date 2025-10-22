@@ -4,10 +4,6 @@ This is the Flask API backend for the Cafe Finder App
 .
 It powers the café search feature — taking a city name and returning café locations (with latitude and longitude) for the frontend map.
 
-🌍 Live API
-
-Base URL: https://cafe-finder-backend.onrender.com
-
 Example Request:
 
 https://cafe-finder-backend.onrender.com/search?city=paris
