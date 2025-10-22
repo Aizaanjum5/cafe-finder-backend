@@ -1,50 +1,33 @@
-☕ Cafe Finder
-☕ Cafe Finder
+☕ Cafe Finder Backend
 
-Discover cozy cafés around the world — one city at a time!
-This is a full-stack web application built with React (frontend) and Flask (backend) that allows users to search for cafés in any city, view them on a map, and save their favorites.
+This is the Flask API backend for the Cafe Finder App
+.
+It powers the café search feature — taking a city name and returning café locations (with latitude and longitude) for the frontend map.
 
-🌐 Live Demo
+🌍 Live API
 
-Frontend: https://cafefinderbyaiza.netlify.app
+Base URL: https://cafe-finder-backend.onrender.com
 
-Backend API: https://cafe-finder-backend.onrender.com
+Example Request:
+
+https://cafe-finder-backend.onrender.com/search?city=paris
 
 🚀 Features
 
-🔎 Search for cafés by entering any city name
+Returns a list of cafés (sample data for now)
 
-🗺️ Interactive map with location markers
+Each café has a unique ID, name, and coordinates
 
-💖 Save favorite cafés locally
+Supports CORS (for frontend access)
 
-🎯 Custom map markers with different colors
+Simple and lightweight Flask setup
 
-💾 Data persists in localStorage
+🧠 Tech Stack
 
-🌸 Clean and minimal UI
+Python 3
 
-🛠️ Tech Stack
-Frontend
-
-React.js
-
-Leaflet (for maps)
-
-CSS (custom styling)
-
-Backend
-
-Flask (Python)
+Flask
 
 Flask-CORS
 
-REST API endpoints
-
-Render (for backend hosting)
-
-Deployment
-
-Frontend: Netlify
-
-Backend: Render
+Requests
